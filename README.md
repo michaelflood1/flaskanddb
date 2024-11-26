@@ -223,8 +223,8 @@ the first element is the response the second is the status code
   - Try modifying template content and structure to understand how Flask dynamically renders HTML.
   - Test adding new routes and templates to explore Flask’s flexibility.
 
-
-    /flask_app/
+```
+    flask_app/
     ├── app.py
     ├── /templates/
     │     ├── base.html
@@ -237,6 +237,7 @@ the first element is the response the second is the status code
             ├── users.csv
             ├── books.csv
 
+```
 
 pip install flask
 
