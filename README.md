@@ -380,6 +380,38 @@ if __name__ == "__main__":
 
 ## week 12 lab
 
+```
+flask_project/
+├── app.py               # Main Flask application
+├── db.py                # SQLAlchemy setup
+├── manage.py            # Database management and seeding script
+├── models.py            # Models for database tables
+├── templates/           # HTML templates for rendering
+│   ├── base.html        # Base template (optional for layout)
+│   ├── books.html       # Page for listing all books
+│   ├── categories.html  # Page for listing all categories
+│   ├── users.html       # Page for listing all users
+│   ├── category.html    # Page for a single category's details
+│   ├── book.html        # Page for a single book's details
+│   ├── user.html        # Page for a single user's details
+│   ├── available.html   # Page for available books
+│   └── rented.html      # Page for rented books
+├── static/              # Static files (CSS, JS, images)
+│   ├── css/
+│   │   └── styles.css   # Custom CSS styles
+│   ├── js/
+│   │   └── scripts.js   # Custom JavaScript
+│   └── images/
+│       └── logo.png     # Placeholder image file
+├── data/                # Directory for storing CSV files and the database
+│   ├── books.csv        # Books data for importing
+│   ├── users.csv        # Users data for importing
+│   └── i_copy_pasted_this.db  # SQLite database file (auto-created)
+├── requirements.txt     # Python dependencies for the project
+├── .gitignore           # Git ignore file
+└── README.md            # Project documentation
+
+```
 pip install flask-sqlalchemy
 
 app.py
